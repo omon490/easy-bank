@@ -4,8 +4,11 @@
 /* 4. INTRO SECTION */
 /* 5.ACCOUNT SECTION */
 /* 6.LATEST ARTICLES */
-/* 1. FONTS */
+/* 7. FOOTER */
 
+
+
+/* 1. FONTS */
 @font-face {
   font-family: "Public Sans";
   font-style: normal;
@@ -34,7 +37,6 @@
 }
 
 /* 2. GLOBAL STYLES */
-
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -83,7 +85,6 @@ img {
 }
 
 /* 3. HEADER */
-
 .site-header{
   position: fixed;
   z-index: 10000;
@@ -192,7 +193,6 @@ img {
 }
 
 /* 4. INTRO SECTION */
-
 .intro{
   background-image: url("../img/intro-bg/intro-bg.png");
   background-repeat: no-repeat;
@@ -241,7 +241,6 @@ img {
 }
 
 /* 5.ACCOUNT SECTION */
-
 .account{
   background-color: #F4F5F7;
 }
@@ -327,7 +326,6 @@ img {
 }
 
 /* 6.LATEST ARTICLES */
-
 .latest-articles{
   background-color: #F2F2F2;
   padding: 80px 0;
@@ -392,6 +390,41 @@ img {
   line-height: 18px;
   letter-spacing: -0.203125px;
   color: #9597A5;
+}
+
+/* 7. FOOTER */
+.site-footer{
+  background-color: #2D314D;
+  padding: 48px;
+}
+
+.footer-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-left-wrapper{
+  width: 154px;
+  margin-right: 131px;
+}
+
+.site-footer-link{
+  display: block;
+  text-decoration: none;
+}
+
+.site-footer-img{
+  display: block;
+}
+
+.social-list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 
