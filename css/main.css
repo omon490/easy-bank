@@ -1,3 +1,11 @@
+/* 1. FONTS */
+/* 2. GLOBAL STYLES */
+/* 3. HEADER */
+/* 4. INTRO SECTION */
+/* 5.ACCOUNT SECTION */
+/* 6.LATEST ARTICLES */
+/* 1. FONTS */
+
 @font-face {
   font-family: "Public Sans";
   font-style: normal;
@@ -24,6 +32,8 @@
   src: url("../fonts/public-sans-v4-latin-500.woff2") format("woff2"),
        url("../fonts/public-sans-v4-latin-500.woff") format("woff");
 }
+
+/* 2. GLOBAL STYLES */
 
 html {
   box-sizing: border-box;
@@ -70,6 +80,8 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* 3. HEADER */
 
 .site-header{
   position: fixed;
@@ -178,6 +190,8 @@ img {
   opacity: 0.4;
 }
 
+/* 4. INTRO SECTION */
+
 .intro{
   background-image: url("../img/intro-bg/intro-bg.png");
   background-repeat: no-repeat;
@@ -191,7 +205,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 170px 0;
+  padding-top: 170px;
+  padding-bottom: 170px;
 }
 
 .intro-inner{
@@ -223,6 +238,95 @@ img {
   z-index: 1;
   right: calc(50% - 880px);
 }
+
+/* 5.ACCOUNT SECTION */
+
+.account{
+  background-color: #F4F5F7;
+}
+
+.account-heading{
+  width: 411px;
+  margin: 0;
+  margin-bottom: 18px;
+  padding-top: 86px;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2D314D;
+}
+
+.account-text{
+  width: 635px;
+  margin: 0;
+  margin-bottom: 72px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+
+.account-list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.account-item{
+  width: 255px;
+}
+
+.accoun-item-title{
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.428571px;
+  color: #2D314D;
+}
+
+.accoun-item-title::before{
+  content: "";
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.online-banking::before{
+  background-image: url("../img/features-img/online-banking.png");
+}
+
+.budget::before{
+  background-image: url("../img/features-img/simple-budgeting.png");
+}
+
+.onboard::before{
+  background-image: url("../img/features-img/fast-onboarding.png");
+}
+
+.open-api::before{
+  background-image: url("../img/features-img/open-api.png");
+}
+
+.account-item-text{
+  margin: 0;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #9597A5;
+}
+
+/* 6.LATEST ARTICLES */
+
+
 
 
 
