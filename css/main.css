@@ -55,6 +55,7 @@ body {
   font-size: 16px;
   background-color: #f2f2f2;
   margin-top: 80px;
+  overflow-x: hidden;
 }
 
 img {
@@ -326,6 +327,72 @@ img {
 }
 
 /* 6.LATEST ARTICLES */
+
+.latest-articles{
+  background-color: #F2F2F2;
+  padding: 80px 0;
+}
+
+.articles-heading{
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2D314D;
+}
+
+.articles-list{
+  width: 1110px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.articles-item{
+  width: 255px;
+  background-color: #fff;
+}
+
+.articles-img{
+  display: block;
+  margin-bottom: 25px;
+}
+
+.articles-title-wrapper{
+  padding: 0 24px 24px 24px;
+}
+
+.articles-name{
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: -0.15625px;
+  color: #9597A5;
+}
+
+.articles-item-title{
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.285714px;
+  color: #2D314D;
+}
+
+.articles-item-text{
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.203125px;
+  color: #9597A5;
+}
 
 
 
