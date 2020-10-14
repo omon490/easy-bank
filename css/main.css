@@ -5,6 +5,7 @@
 /* 5.ACCOUNT SECTION */
 /* 6.LATEST ARTICLES */
 /* 7. FOOTER */
+/* 8. @media */
 
 /* 1. FONTS */
 @font-face {
@@ -492,26 +493,6 @@ img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
@@ -520,4 +501,19 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
+  .intro{
+    background-image: url("../img/intro-bg/intro-bg@2x.png");
+  }
+  .online-banking::before{
+    background-image: url("../img/features-img/online-banking@2x.png");
+  }
+  .budget::before{
+    background-image: url("../img/features-img/simple-budgeting@2x.png");
+  }
+  .onboard::before{
+    background-image: url("../img/features-img/fast-onboarding@2x.png");
+  }
+  .open-api::before{
+    background-image: url("../img/features-img/open-api@2x.png");
+  }
 }
