@@ -481,6 +481,10 @@ img {
   color: #30C88F;
 }
 
+.footer-link:hover {
+  color: #30C88F;
+}
+
 .footer-right-text{
   margin: 0;
   margin-top: 24px;
@@ -490,6 +494,10 @@ img {
   letter-spacing: -0.234375px;
   color: #FFFFFF;
   opacity: 0.5;
+}
+
+.social-link-svg path:hover{
+  fill: #30C88F;
 }
 
 
